@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,900|Noto+Sans:400,700|Open+Sans:300,600|PT+Sans:400,700|Roboto:300,400|Varela+Round&display=swap");
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.nsans {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.06rem;
+}
+
+.vround {
+  font-family: "Varela Round", sans-serif;
+}
+
+.ptsans {
+  font-family: "PT Sans", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+
+.ubtn {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-radius: 0.2rem;
+  color: #22405c;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  border: solid 0.1rem #22405c;
+}
+
+.ubtn:hover {
+  background-color: #79cbf7;
+  color: white;
+  border: solid 0.1rem #79cbf7;
+}
+
+.container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bwhite {
+  border: solid 0.1rem white;
+  color: #22405c;
+  border: solid 0.1rem white;
+  box-shadow: 1px 1px 4px #22405c;
+}
+
+.b-red {
+  background-color: tomato;
+  color: white;
+  border: solid 0.1rem tomato;
+}
+
+.b-red:hover {
+  background-color: #f5b4a9;
+  color: white;
+  border: solid 0.1rem #f5b4a9;
+}
+
+.box-shadow {
+  box-shadow: 1px 1px 4px #22405c;
+}
+
+.t-red {
+  color: tomato;
+}
+
+.bgred {
+  background-color: tomato;
+}
+
+.bgcool {
+  background-color: #e8ebed;
+}
+
+/*# sourceMappingURL=uniquely.css.map */

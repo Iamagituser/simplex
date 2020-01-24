@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,900|Noto+Sans:400,700|Open+Sans:300,600|PT+Sans:400,700|Roboto:300,400|Varela+Round&display=swap");
+// font-family: 'Lato', sans-serif;
+// font-family: 'Noto Sans', sans-serif;
+// font-family: 'PT Sans', sans-serif;
+// font-family: 'Varela Round', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// ***********************************************
+// Colors
+
+$graytone: #22405c;
+$radius: 0.2rem;
+$hoverColor: #79cbf7;
+$padding: 0.5rem;
+
+// Fonts
+.lato {
+  font-family: "Lato", sans-serif;
+}
+.nsans {
+  font-family: "Noto Sans", sans-serif;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.06rem;
+}
+.vround {
+  font-family: "Varela Round", sans-serif;
+}
+.ptsans {
+  font-family: "PT Sans", sans-serif;
+}
+.bold {
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+// Typography
+p {
+  font-family: "Open Sans", sans-serif;
+  padding: $padding;
+  font-weight: 500;
+}
+
+// Buttons
+
+.ubtn {
+  //   padding: 0.4rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-radius: $radius;
+  color: $graytone;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  border: solid 0.1rem $graytone;
+}
+.ubtn:hover {
+  background-color: $hoverColor;
+  color: white;
+  border: solid 0.1rem $hoverColor;
+}
+
+// Layout
+
+.container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+// Colors
+
+.bwhite {
+  border: solid 0.1rem white;
+  color: $graytone;
+  border: solid 0.1rem white;
+  box-shadow: 1px 1px 4px $graytone;
+}
+
+.b-red {
+  background-color: tomato;
+  color: white;
+  border: solid 0.1rem tomato;
+}
+.b-red:hover {
+  background-color: #f5b4a9;
+  color: white;
+  border: solid 0.1rem #f5b4a9;
+}
+.box-shadow {
+  box-shadow: 1px 1px 4px $graytone;
+}
+
+.t-red {
+  color: tomato;
+}
+.bgred {
+  background-color: tomato;
+}
+.bgcool {
+  background-color: #e8ebed;
+}
