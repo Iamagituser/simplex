@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,900|Noto+Sans:400,700|Open+Sans:300,600|PT+Sans:400,700|Roboto:300,400|Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+.mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.b {
+  font-weight: 700;
+}
+
 .lato {
   font-family: "Lato", sans-serif;
 }
@@ -26,13 +36,12 @@
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 0.5rem;
-  font-weight: 500;
 }
 
 .ubtn {
@@ -44,24 +53,35 @@ p {
   color: #22405c;
   font-size: 0.9rem;
   box-sizing: border-box;
-  border: solid 0.1rem #22405c;
+  border: none;
 }
 
 .ubtn:hover {
   background-color: #79cbf7;
   color: white;
-  border: solid 0.1rem #79cbf7;
+  border: none;
+}
+
+.gbtn {
+  background-color: #1a73e8;
+  color: white;
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.25px;
+  font-family: "Open Sans", sans-serif;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.1rem;
+  border: none;
+  box-shadow: 1px 1px 4px #22405c;
 }
 
 .container {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 20px;
 }
 
 .bwhite {
   border: solid 0.1rem white;
   color: #22405c;
-  border: solid 0.1rem white;
   box-shadow: 1px 1px 4px #22405c;
 }
 
@@ -77,7 +97,7 @@ p {
   border: solid 0.1rem #f5b4a9;
 }
 
-.box-shadow {
+.b-shadow {
   box-shadow: 1px 1px 4px #22405c;
 }
 
@@ -93,4 +113,9 @@ p {
   background-color: #e8ebed;
 }
 
-/*# sourceMappingURL=uniquely.css.map */
+.bgwhite {
+  color: inherit;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=Simplex.css.map */
