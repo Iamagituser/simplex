@@ -17,6 +17,7 @@ $radius: 0.2rem;
 $hoverColor: #79cbf7;
 $padding: 0.5rem;
 $button-color: #1a73e8;
+$hover: #3181eb;
 $box-shadow: 1px 1px 4px $graytone;
 
 // Fonts
@@ -58,24 +59,6 @@ p {
 
 // Buttons
 
-.ubtn {
-  //   padding: 0.4rem;
-  padding-left: 0.6rem;
-  padding-right: 0.6rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-  border-radius: $radius;
-  color: $graytone;
-  font-size: 0.9rem;
-  box-sizing: border-box;
-  border: none;
-}
-.ubtn:hover {
-  background-color: $hoverColor;
-  color: white;
-  border: none;
-}
-
 .gbtn {
   background-color: $button-color;
   color: white;
@@ -87,6 +70,11 @@ p {
   border-radius: 0.1rem;
   border: none;
   box-shadow: $box-shadow;
+  cursor: pointer;
+}
+.gbtn:hover {
+  background-color: $hover;
+  color: white;
 }
 
 // Layout
@@ -96,12 +84,6 @@ p {
 }
 
 // Colors
-
-.bwhite {
-  border: solid 0.1rem white;
-  color: $graytone;
-  box-shadow: 1px 1px 4px $graytone;
-}
 
 .b-red {
   background-color: tomato;

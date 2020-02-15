@@ -44,24 +44,6 @@ p {
   padding: 0.5rem;
 }
 
-.ubtn {
-  padding-left: 0.6rem;
-  padding-right: 0.6rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-  border-radius: 0.2rem;
-  color: #22405c;
-  font-size: 0.9rem;
-  box-sizing: border-box;
-  border: none;
-}
-
-.ubtn:hover {
-  background-color: #79cbf7;
-  color: white;
-  border: none;
-}
-
 .gbtn {
   background-color: #1a73e8;
   color: white;
@@ -73,16 +55,16 @@ p {
   border-radius: 0.1rem;
   border: none;
   box-shadow: 1px 1px 4px #22405c;
+  cursor: pointer;
+}
+
+.gbtn:hover {
+  background-color: #3181eb;
+  color: white;
 }
 
 .container {
   margin: 20px;
-}
-
-.bwhite {
-  border: solid 0.1rem white;
-  color: #22405c;
-  box-shadow: 1px 1px 4px #22405c;
 }
 
 .b-red {
