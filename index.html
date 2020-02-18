@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./Simplex.css" />
+    <link rel="stylesheet" href="./Scss/Simplex.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
       <h1 class="roboto">Hello</h1>
-      <button class="ubtn">Click me!</button>
-      <p class="bgcool">
+      <button class="gbtn">Click me!</button>
+      <p class="niceYellow shadow">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam,
         voluptatibus. Ipsam facilis ut molestias, enim consequatur dolores
         distinctio atque obcaecati. Dolorum, similique odio repellendus eveniet
@@ -19,7 +19,41 @@
         commodi quod? Rerum ad atque quae eveniet, maiores cumque at quia
         voluptatem nostrum quas, facilis ullam!
       </p>
-      <button class="gbtn"><span class="gtext">Next</span></button>
+      <div class="row right">
+        <a href="#"> <span class="linkFont">Create Account</span></a>
+        <button class="gbtn">
+          <span class="gtext">Next</span>
+        </button>
+      </div>
+      <div class="form marginTop-10 justShadow radius">
+        <form action="#">
+          <label for="Email=" class="gray"
+            >Email <span class="textRed">*</span></label
+          >
+          <br />
+          <input
+            class="input"
+            type="text"
+            required
+            oninvalid="this.setCustomValidity('Please Enter valid email')"
+          />
+          <br />
+          <br />
+          <label for="Password" class="gray"
+            >Password <span class="textRed">*</span></label
+          >
+          <br />
+          <input
+            class="input"
+            type="password"
+            required=""
+            oninvalid="this.setCustomValidity('Please Enter valid password')"
+          />
+          <button class="gbtn marginTop-10 bgGreen right">Submit</button>
+        </form>
+      </div>
+      <p class="para">Hello</p>
     </div>
+    <script src="./js/simplex.js"></script>
   </body>
 </html>

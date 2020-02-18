@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,900|Noto+Sans:400,700|Open+Sans:300,600|PT+Sans:400,700|Roboto:300,400|Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,900|Noto+Sans:400,700|Open+Sans:300,600|PT+Sans:400,700|Roboto:300,400|Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+.mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.natosans {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.06rem;
+}
+
+.vround {
+  font-family: "Varela Round", sans-serif;
+}
+
+.ptsans {
+  font-family: "PT Sans", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.gray {
+  color: #5c5a5a;
+}
+
+.gbtn {
+  background-color: #0d61e9;
+  color: white;
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.25px;
+  font-family: "Open Sans", sans-serif;
+  padding: 0.3rem 0.9rem;
+  border-radius: 0.2rem;
+  border: none;
+  box-shadow: 1px 1px 4px #22405c;
+  cursor: pointer;
+}
+
+.gbtn:focus {
+  outline-width: 0;
+}
+
+.gbtn:hover {
+  background-color: #3181eb;
+  color: white;
+}
+
+.linkFont {
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.25px;
+  font-family: "Open Sans", sans-serif;
+  padding: 0.3rem 0.9rem;
+  padding: 6px;
+}
+
+.niceYellow {
+  background-color: #fff390;
+}
+
+.bgRedWithHover {
+  background-color: tomato;
+  color: white;
+  border: solid 0.1rem tomato;
+}
+
+.bgRedWithHover:hover {
+  background-color: #f5b4a9;
+  color: white;
+  border: solid 0.1rem #f5b4a9;
+}
+
+.shadow {
+  box-shadow: 1px 1px 4px #22405c;
+}
+
+.textRed {
+  color: tomato;
+}
+
+.bgRed {
+  background-color: tomato;
+  color: white;
+}
+
+.bgGreen {
+  background-color: #2bbe61;
+}
+
+.bgcool {
+  background-color: #e8ebed;
+}
+
+.bgwhite {
+  color: inherit;
+  background-color: #fff;
+}
+
+.container {
+  margin: 20px;
+}
+
+.shadow {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.shadow:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.justShadow {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.radius {
+  border-radius: 0.3rem;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.textCenter {
+  float: center;
+}
+
+.marginTop-5 {
+  margin-top: 5px;
+}
+
+.marginTop-10 {
+  margin-top: 10vh;
+}
+
+.marginTop-15 {
+  margin-top: 15vh;
+}
+
+.marginTop-20 {
+  margin-top: 20vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.row-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.row-4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.row-5 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.row-6 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .row-2,
+.row-3,
+.row-4,
+.row-5,
+.row-6 {
+    grid-template-columns: auto;
+  }
+}
+.mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.natosans {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.06rem;
+}
+
+.vround {
+  font-family: "Varela Round", sans-serif;
+}
+
+.ptsans {
+  font-family: "PT Sans", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.gray {
+  color: #5c5a5a;
+}
+
+form {
+  padding: 20px;
+  overflow: hidden;
+}
+
+input {
+  color: #524f4f;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+}
+
+input::placeholder {
+  color: #bebaba;
+}
+
+input.input:focus {
+  border: solid 0.01rem #7db0eb;
+}
+
+label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7rem;
+}
+
+.field {
+  margin-top: 25px;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  border-radius: 2px;
+  font-family: "Roboto", sans-serif;
+  padding: 0.6rem;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+  color: #0d61e9;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #3181eb;
+}
+
+h1 {
+  margin: 5px;
+}
+
+/*# sourceMappingURL=simplex.css.map */

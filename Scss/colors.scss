@@ -1,0 +1,35 @@
+// Colors
+.niceYellow {
+  background-color: #fff390;
+}
+.bgRedWithHover {
+  background-color: tomato;
+  color: white;
+  border: solid 0.1rem tomato;
+}
+.bgRedWithHover:hover {
+  background-color: #f5b4a9;
+  color: white;
+  border: solid 0.1rem #f5b4a9;
+}
+.shadow {
+  box-shadow: 1px 1px 4px $graytone;
+}
+
+.textRed {
+  color: tomato;
+}
+.bgRed {
+  background-color: tomato;
+  color: white;
+}
+.bgGreen {
+  background-color: #2bbe61;
+}
+.bgcool {
+  background-color: #e8ebed;
+}
+.bgwhite {
+  color: inherit;
+  background-color: #fff;
+}

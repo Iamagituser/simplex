@@ -4,6 +4,7 @@
 @import "layout";
 @import "grid";
 @import "form";
+
 $graytone: #22405c;
 $radius: 0.2rem;
 $padding: 0.6rem;
@@ -29,7 +30,7 @@ a:hover {
   color: $hover;
 }
 h1 {
-  margin: auto;
+  margin: 5px;
 }
 
 // Layout
