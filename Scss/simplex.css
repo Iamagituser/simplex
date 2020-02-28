@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,900|Noto+Sans:400,700|Open+Sans:300,600|PT+Sans:400,700|Roboto:300,400|Varela+Round&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,900|Noto+Sans:400,700|Open+Sans:300,600|PT+Sans:400,700|Roboto:300,400|Varela+Round&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 .mont {
   font-family: "Montserrat", sans-serif;
 }
@@ -204,72 +201,6 @@
     grid-template-columns: auto;
   }
 }
-.mont {
-  font-family: "Montserrat", sans-serif;
-}
-
-.lato {
-  font-family: "Lato", sans-serif;
-}
-
-.natosans {
-  font-family: "Noto Sans", sans-serif;
-}
-
-.roboto {
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 0.06rem;
-}
-
-.vround {
-  font-family: "Varela Round", sans-serif;
-}
-
-.ptsans {
-  font-family: "PT Sans", sans-serif;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.gray {
-  color: #5c5a5a;
-}
-
-form {
-  padding: 20px;
-  overflow: hidden;
-}
-
-input {
-  color: #524f4f;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 10px;
-}
-
-input::placeholder {
-  color: #bebaba;
-}
-
-input.input:focus {
-  border: solid 0.01rem #7db0eb;
-}
-
-label {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.7rem;
-}
-
-.field {
-  margin-top: 25px;
-}
-
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
