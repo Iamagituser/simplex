@@ -1,7 +1,7 @@
 // row allows align components inside a row into a row :)
 .row {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto;
 }
 .row-2 {
   display: grid;

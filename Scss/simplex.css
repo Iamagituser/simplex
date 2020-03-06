@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,900|Noto+Sans:400,700|Open+Sans:300,600|PT+Sans:400,700|Roboto:300,400|Varela+Round&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+@import "../assets/Fonts/fira/Regular/stylesheet.css";
 .mont {
   font-family: "Montserrat", sans-serif;
 }
@@ -42,10 +43,10 @@
   background-color: #0d61e9;
   color: white;
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   letter-spacing: 0.25px;
   font-family: "Open Sans", sans-serif;
-  padding: 0.3rem 0.9rem;
+  padding: 0.8rem 1rem;
   border-radius: 0.2rem;
   border: none;
   box-shadow: 1px 1px 4px #22405c;
@@ -70,6 +71,11 @@
   padding: 6px;
 }
 
+@media only screen and (max-width: 1025px) {
+  .gbtn {
+    width: 30%;
+  }
+}
 .niceYellow {
   background-color: #fff390;
 }
@@ -163,8 +169,8 @@
 }
 
 .row {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto;
 }
 
 .row-2 {
@@ -203,14 +209,13 @@
 }
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "fira_sansregular";
 }
 
 p {
   border-radius: 2px;
-  font-family: "Roboto", sans-serif;
+  font-family: "fira_sansregular";
   padding: 0.6rem;
-  font-weight: 100;
 }
 
 a {
