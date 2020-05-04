@@ -1,6 +1,6 @@
 // Variables for buttons
 $graytone: #22405c;
-$buttonColor: #0d61e9;
+$buttonColor: #0077ff;
 $boxShadow: 1px 1px 4px $graytone;
 $hover: #3181eb;
 
@@ -8,14 +8,14 @@ $hover: #3181eb;
 .gbtn {
   background-color: $buttonColor;
   color: white;
-  font-weight: 600;
-  font-size: 0.75rem;
-  letter-spacing: 0.25px;
-  font-family: "Open Sans", sans-serif;
-  padding: 0.8rem 1rem;
+
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+  font-family: "Roboto", sans-serif;
+  padding: 0.8rem 2rem;
   border-radius: 0.2rem;
   border: none;
-  box-shadow: $boxShadow;
+  // box-shadow: $boxShadow;
   cursor: pointer;
 }
 .gbtn:focus {

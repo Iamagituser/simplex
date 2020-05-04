@@ -24,9 +24,6 @@
   grid-template-columns: auto auto auto auto auto auto;
 }
 
-.column {
-}
-
 @media only screen and (max-width: 800px) {
   .row-2,
   .row-3,
@@ -34,5 +31,11 @@
   .row-5,
   .row-6 {
     grid-template-columns: auto;
+  }
+  .row-2 {
+    grid-template-columns: auto;
+  }
+  .column:first-child {
+    height: 30px;
   }
 }

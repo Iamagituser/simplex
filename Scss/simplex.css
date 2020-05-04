@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 @import "../assets/Fonts/fira/Regular/stylesheet.css";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap");
 .mont {
   font-family: "Montserrat", sans-serif;
 }
@@ -40,16 +41,14 @@
 }
 
 .gbtn {
-  background-color: #0d61e9;
+  background-color: #0077ff;
   color: white;
-  font-weight: 600;
-  font-size: 0.75rem;
-  letter-spacing: 0.25px;
-  font-family: "Open Sans", sans-serif;
-  padding: 0.8rem 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+  font-family: "Roboto", sans-serif;
+  padding: 0.8rem 2rem;
   border-radius: 0.2rem;
   border: none;
-  box-shadow: 1px 1px 4px #22405c;
   cursor: pointer;
 }
 
@@ -206,6 +205,14 @@
 .row-6 {
     grid-template-columns: auto;
   }
+
+  .row-2 {
+    grid-template-columns: auto;
+  }
+
+  .column:first-child {
+    height: 30px;
+  }
 }
 body {
   margin: 0;
@@ -220,7 +227,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #0d61e9;
+  color: #0077ff;
   cursor: pointer;
 }
 

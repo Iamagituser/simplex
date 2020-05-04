@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="row-2">
+      <div class="row-2" id="row">
         <div class="column niceYellow one" id="on">
           <span id="btn">slide Left</span>
         </div>
@@ -29,13 +29,14 @@
     <script>
       const sideMenu = document.getElementById("on");
       const btn = document.getElementById("btn");
+      const row = document.getElementById("row");
       btn.addEventListener("click", function() {
-        if (sideMenu.style.width === "30%") {
-          sideMenu.style.width = "70%";
-          btn.innerText = "slide Left";
-        } else {
-          sideMenu.style.width = "30%";
+        if (row.style.gridTemplateColumns === "auto auto") {
+          row.style.gridTemplateColumns = "10% auto";
           btn.innerText = "slide Right";
+        } else {
+          row.style.gridTemplateColumns = "auto auto";
+          btn.innerText = "slide Left";
         }
       });
     </script>
