@@ -5,6 +5,26 @@ $boxShadow: 1px 1px 4px $graytone;
 $hover: #3181eb;
 
 // Buttons
+
+.button{
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid rgb(202, 201, 201);
+  padding: 15px 30px;
+  margin: 1rem 0;
+  text-align: center;
+  border-radius: 6px;
+  line-height: 1;
+  font-size: inherit;
+  
+}
+.button:hover{
+  background-color: #f8f8f8;
+  cursor: pointer;
+  border: transparent;
+  color: rgb(27, 27, 27);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 .button-decor{
   text-decoration: none;
   font-size: inherit;
@@ -25,7 +45,6 @@ $hover: #3181eb;
   background-color: #0077ff;
   border-color: none;
   color: white;
-  border-width: 1px;
   cursor: pointer;
   box-shadow: 5px 5px 0 0 #bdbdbd;
 }
