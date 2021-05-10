@@ -9,6 +9,9 @@ $radius: 0.2rem;
 $padding: 0.6rem;
 $boxShadow: 1px 1px 4px $graytone;
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
